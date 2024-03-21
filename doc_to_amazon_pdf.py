@@ -160,6 +160,7 @@ def main():
     if input_file.endswith('.docx'):
         html_content = docx_to_html(input_file)
     elif input_file.endswith('.md'):
+        """Split HTML out to separate title page"""
         html_content = md_to_html(input_file)
         html_content_list = html_content.split("\n")
         title_page = ""
