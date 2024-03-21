@@ -15,6 +15,6 @@ This python script converts a .docx or .md file to PDF per amazon publishing spe
 ### Alternative Usage
 
 `chmod 744 doc_to_amazon_pdf.py`  
-add script.py to a folder in your $PATH (ie ~/.local/bin)  
+add doc_to_amazon_pdf.py to a folder in your $PATH (ie ~/.local/bin)  
 remove .py from the script filename
 and run `doc_to_amazon_pdf` from anywhere.
