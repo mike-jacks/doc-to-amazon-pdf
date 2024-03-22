@@ -6,7 +6,7 @@ This python script converts a .docx or .md file to PDF per amazon publishing spe
 
 ### Installation
 
-`python install -r requirements.txt`
+`pip install -r requirements.txt`
 
 ### Usage
 
